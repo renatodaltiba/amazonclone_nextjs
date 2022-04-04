@@ -1,3 +1,5 @@
+import Header from 'components/Header'
+// eslint-disable-next-line import/order
 import Head from 'next/head'
 
 export default function Home() {
@@ -7,7 +9,7 @@ export default function Home() {
         <title>Amazon 2.0</title>
       </Head>
 
-      <h1>Hey</h1>
+      <Header />
     </div>
   )
 }
